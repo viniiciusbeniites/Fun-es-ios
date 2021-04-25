@@ -1,4 +1,4 @@
-//atividade 1
+// Atividade 1
 var x = 2
 var y = 0
 var result = 1
@@ -20,7 +20,7 @@ func fatorar(_ num1: Int){
   print(result)
 }
 fatorar(5555)
-//atividade 2
+// Atividade 2
 func positounegat(_ num: Int){
     var condic = true
     if (num > 0){
@@ -31,7 +31,7 @@ func positounegat(_ num: Int){
     print(condic)
 }
 positounegat(-55)
-//atividade3
+//Atividade 3
 var conc: String = "vazio";
 func notaUsu(_ nota: Double){
     if nota <= 4.9 {
@@ -46,7 +46,7 @@ func notaUsu(_ nota: Double){
     print(conc)
 }
 notaUsu(5.5)
-//atividade4
+//Atividade 4
 var a: Int = 0
 func retornArray(_ array: Array<Int>){
     for item in array {
@@ -55,7 +55,7 @@ func retornArray(_ array: Array<Int>){
     print(a)
 }
 retornArray([5,15,25,35,45,55])
-//atividade5
+//Atividade 5
 let numeros: Array<Int> = [5,15,25,35,45,55,65,75,85]
 func multiplicacaoArray(_ quant: Int){
   var newArray: Array<Int> = []
@@ -66,7 +66,7 @@ func multiplicacaoArray(_ quant: Int){
   print(newArray)
 }
 multiplicacaoArray(5)
-//atividade6
+//Atividade 6
 func atv6(_ quantia: Int){
     var quantia = quantia
     while quantia / 2 > 1 {
